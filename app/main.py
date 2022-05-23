@@ -28,7 +28,7 @@ while True:
                                 user='postgres', password='root', cursor_factory=RealDictCursor)
 
         cursor = conn.cursor()
-        print("Database connection was successfull")
+        print("Database connection was successfully")
         break
     except Exception as error:
         print("Database connection was failed")
