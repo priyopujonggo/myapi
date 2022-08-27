@@ -47,3 +47,12 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     id: Optional[str] = None
+
+
+class Product(BaseModel):
+    name: str
+    category: str
+    price: int
+    description: str
+    stock: int
+    seller_id: int
